@@ -6,18 +6,21 @@ pipeline {
         stage('Phase 1') {
           steps {
             echo 'Phase 1 started'
+            sleep 2
           }
         }
 
         stage('Phase 1.1') {
           steps {
             echo 'Phase 1.1 started'
+            sleep 2
           }
         }
 
         stage('Phase 1.2') {
           steps {
             echo 'Phase 1.2 started'
+            sleep 1
           }
         }
 
@@ -29,10 +32,11 @@ pipeline {
         stage('Phase 2') {
           steps {
             echo 'Phase 2 started'
+            sleep 2
           }
         }
 
-        stage('') {
+        stage('error') {
           steps {
             echo 'Phase 2.1 started'
           }
