@@ -13,7 +13,6 @@ pipeline {
         stage('Phase 1.1') {
           steps {
             echo 'Phase 1.1 started'
-            sleep 2
           }
         }
 
